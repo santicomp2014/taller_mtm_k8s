@@ -1,6 +1,6 @@
-![https://www.meetup.com/es/Maldonado-New-Technology-Meetup/](./docs/mtm.jpg)
-
 # Taller KUBERNETES MTM 🔨🐳🚀 
+
+![https://www.meetup.com/es/Maldonado-New-Technology-Meetup/](./docs/mtm.jpg)
 
 # ¿Que es esto? :eyes:
 
@@ -27,9 +27,11 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 ![Arquitectura](./docs/k8sarquitecture.jpg)
 
 # Material/Recursos Adicionales  📚
-* Learn Kubernetes
-* Podcast
-* Medium
+* [Videos Epañol] (https://www.youtube.com/watch?v=tNHD8LO2cwM)
+* [Videos de K8S Updates] (https://www.youtube.com/channel/UCjQU5ZI2mHswy7OOsii_URg)
+* [Podcast/Info en Software Engineering Daily] (https://softwareengineeringdaily.com/?s=kubernetes)
+* [Medium] (https://medium.com/@marvin.soto/k8s-t%C3%A9cnicamente-explicados-da9b2748bcca)
+* [Blogs K8S] (https://learnk8s.io/blog/)
 
 
 # Objectivos del taller :dart:
@@ -42,8 +44,14 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 # Cosas para investigar en casa 🔍
 * [ ]  Minikube local en docker
 * [ ]  Minikube en VM (VMWare)
+* [ ]  [Docker from Zero to Hero] (https://es.slideshare.net/fazalraja/docker-from-zero-to-hero-81492331)
 * [ ]  [GCE Google Container Engine](https://cloud.google.com/kubernetes-engine/?hl=es)
 * [ ]  [AKS Amazon Managed Kubernetes](https://aws.amazon.com/es/eks/)
+* [ ]  [Istio](https://istio.io/)
+* [ ]  [Linkerd](https://linkerd.io/)
+* [ ]  [KNative](https://cloud.google.com/knative/)
+* [ ]  [Amazon EKS Workshopa](https://eksworkshop.com/)
+* [ ]  [Digital Ocean Kubernetes](https://www.digitalocean.com/resources/kubernetes/)
 
 
 # Docker Original :whale:
