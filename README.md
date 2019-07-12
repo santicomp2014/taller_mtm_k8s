@@ -22,7 +22,4 @@ Kubernetes se volvio masivamente popular versus sus competidores (Docker Swarm/M
 
 Se estandarizo su uso en las companias para poder hacer arquitecturas de microservicios y otras arquitecturas que antes eran prohibitivas por costo o complejidad de operacion.
 
-
-
-
-
+![Arquitectura](./docs/k8sarquitecture.jpg)
