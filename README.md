@@ -1,3 +1,5 @@
+![https://www.meetup.com/es/Maldonado-New-Technology-Meetup/](./docs/mtm.jpg)
+
 # Taller KUBERNETES MTM 🔨🐳🚀 
 
 # ¿Que es esto? :eyes:
@@ -23,3 +25,29 @@ Kubernetes se volvio masivamente popular versus sus competidores (Docker Swarm/M
 Se estandarizo su uso en las companias para poder hacer arquitecturas de microservicios y otras arquitecturas que antes eran prohibitivas por costo o complejidad de operacion.
 
 ![Arquitectura](./docs/k8sarquitecture.jpg)
+
+# Material/Recursos Adicionales  📚
+* Learn Kubernetes
+* Podcast
+* Medium
+
+
+# Objectivos del taller :dart:
+* [ ]  Mostrar conceptos basicos Kubernetes
+* [ ]  Divertirse en MTM
+* [ ]  Seguir modulos de ejemplo
+
+
+
+# Cosas para investigar en casa 🔍
+* [ ]  Minikube local en docker
+* [ ]  Minikube en VM (VMWare)
+* [ ]  [GCE Google Container Engine](https://cloud.google.com/kubernetes-engine/?hl=es)
+* [ ]  [AKS Amazon Managed Kubernetes](https://aws.amazon.com/es/eks/)
+
+
+# Docker Original :whale:
+
+Katacoda original en ingles
+Upstream https://github.com/katacoda-scenarios/kubernetes-bootcamp-scenarios
+Modificado para caso de uso MTM en español :rocket:
