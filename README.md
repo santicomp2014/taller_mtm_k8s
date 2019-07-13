@@ -4,7 +4,7 @@
 
 # ¿Que es esto? :eyes:
 
-* Taller de introduccion a Kubernetes con un ambiente interactivo
+* Taller de introducción a Kubernetes con un ambiente interactivo
 
 *  Material necesario para hacer taller de **Kubernetes**
    * Laptop/pc
@@ -19,10 +19,10 @@
 
 
 # ¿Para que sirve? :satisfied:
-[Kubernetes](https://kubernetes.io/es/) es un orquestador de contendores liberado por Google luego de su experiencia con un proyecto interno llamado Borg.
-Kubernetes se volvio masivamente popular versus sus competidores (Docker Swarm/Mesosphere etc).
+[Kubernetes](https://kubernetes.io/es/) es un orquestador de contenedores liberado por Google luego de su experiencia con un proyecto interno llamado Borg.
+Kubernetes se volvió masivamente popular versus sus competidores (Docker Swarm/Mesosphere etc).
 
-Se estandarizo su uso en las companias para poder hacer arquitecturas de microservicios y otras arquitecturas que antes eran prohibitivas por costo o complejidad de operacion.
+Se estandarizo su uso en las compañías para poder hacer arquitecturas de microservicios y otras arquitecturas que antes eran prohibitivas por costo o complejidad de operación.
 
 ![Arquitectura](./docs/k8sarquitecture.jpg)
 
@@ -35,7 +35,7 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 
 
 # Objectivos del taller :dart:
-* [x]  Mostrar conceptos basicos Kubernetes
+* [x]  Mostrar conceptos básicos Kubernetes
 * [x]  Divertirse en MTM
 * [x]  Seguir modulos de ejemplo
 
@@ -60,18 +60,18 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 
 # Kubernetes VS Serverless
 
-Kubernetes esta siendo operado por la **mayoria de los provedores cloud** y tambien puede ser instalado **on premise** manualmente, o con ayuda de alguna tecnologia ejemplo [Mesosphere](https://mesosphere.com/product/kubernetes-engine/).
+Kubernetes esta siendo operado por la **mayoría de los proveedores cloud** y también puede ser instalado **on premise** manualmente, o con ayuda de alguna tecnología ejemplo [Mesosphere](https://mesosphere.com/product/kubernetes-engine/).
 
-+ Evita el vendor [lockin](https://techbeacon.com/enterprise-it/serverless-vendor-lock-should-you-be-worried) 🔑 en otras palabras estar atado a un provedor ejemplo AWS, si quiero cambiar porque subio el precio puedo iniciar mis pods en otro cluster y funciona igual.
-Igual esto no es un problema tan grave, porque siempre estamos atado por el stack/cloud etc no es tan facil migrar esto.
++ Evita el vendor [lockin](https://techbeacon.com/enterprise-it/serverless-vendor-lock-should-you-be-worried) 🔑 en otras palabras estar atado a un proveedor ejemplo AWS, si quiero cambiar porque subió el precio puedo iniciar mis pods en otro cluster y funciona igual.
+Igual esto no es un problema tan grave, porque siempre estamos atado por el stack/cloud etc no es tan fácil migrar esto.
 
-+ Evita los [cold starts](https://mikhail.io/serverless/coldstarts/aws/) ❄ esto pasa cuando ejemplo Aws Lambda un otro tiene que iniciar la funcion y aun no esta listo para ejecutar, dependiendo del tamaño y si este usa algun recurso de red puede demorar de unos milisegundos hasta varios segundos en el caso de VPC en Amazon. Esto sucede no solo al principio sino que cada x cantidad de peticiones, hay maneras de reducir esto pero no es tan sencillo depende del cloud provider.
++ Evita los [cold starts](https://mikhail.io/serverless/coldstarts/aws/) ❄ esto pasa cuando ejemplo Aws Lambda un otro tiene que iniciar la función y aun no esta listo para ejecutar, dependiendo del tamaño y si este usa algún recurso de red puede demorar de unos milisegundos hasta varios segundos en el caso de VPC en Amazon. Esto sucede no solo al principio sino que cada x cantidad de peticiones, hay maneras de reducir esto pero no es tan sencillo depende del cloud provider.
 
-+ Kubernetes se utliza como un pilar para otras tecnologias ejemplo [OpenWhisk](https://openwhisk.apache.org/) el cual permite ejecutar funciones olvidadose de la infraestructura tal como Serverless de otros provedores.
++ Kubernetes se utiliza como un pilar para otras tecnologías ejemplo [OpenWhisk](https://openwhisk.apache.org/) el cual permite ejecutar funciones olvidándose de la infraestructura tal como Serverless de otros proveedores.
 
-+ Se puede usar tambien [KNative](https://cloud.google.com/knative/) que es una iniciativa parecida a la anterior, intenta reducir la complejidad de K8S y permite levantar aplicacion sin tener que saber tanto sobre Kubernetes, Se puede escalar la aplicacion con la cantidad de trafico ejemplo hay 10 user hay 2 pods, si sube la cantidad se inician solo los pods.
++ Se puede usar también [KNative](https://cloud.google.com/knative/) que es una iniciativa parecida a la anterior, intenta reducir la complejidad de K8S y permite levantar aplicación sin tener que saber tanto sobre Kubernetes, Se puede escalar la aplicación con la cantidad de trafico ejemplo hay 10 user hay 2 pods, si sube la cantidad se inician solo los pods.
 
-+ Se pueden utilizar arquitecturas Service Mesh ejemplo [Istio](https://istio.io/)/[Linkerd](https://linkerd.io/) esto sirve para usar cualquier tipo de app Java/C# etc con una manera estandar de monitorear controlar trafico etc.
++ Se pueden utilizar arquitecturas Service Mesh ejemplo [Istio](https://istio.io/)/[Linkerd](https://linkerd.io/) esto sirve para usar cualquier tipo de app Java/C# etc con una manera estándar de monitorear controlar trafico etc.
 
 # Docker Original :whale:
 
