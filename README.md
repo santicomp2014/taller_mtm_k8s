@@ -11,9 +11,9 @@
    * Internet
 + Modulos para seguir el taller **K8S**
   + [Modulo 1](https://www.katacoda.com/santicomp2/scenarios/1) - Crear un cluster de Kubernetes ⚓
-  + [Modulo 2](https://www.katacoda.com/santicomp2/scenarios/2) - Deploy de una app 🐳
-  + [Modulo 3](https://www.katacoda.com/santicomp2/scenarios/3) - Explorar la app 👀
-  + [Modulo 4](https://www.katacoda.com/santicomp2/scenarios/4) - Exponer la app públicamente 🌍
+  + [Modulo 2](https://www.katacoda.com/santicomp2/scenarios/7) - Deploy de una app 🐳
+  + [Modulo 3](https://www.katacoda.com/santicomp2/scenarios/4) - Explorar la app 👀
+  + [Modulo 4](https://www.katacoda.com/santicomp2/scenarios/8) - Exponer la app públicamente 🌍
   + [Modulo 5](https://www.katacoda.com/santicomp2/scenarios/5) - Escalar la app 🚀
   + [Modulo 6](https://www.katacoda.com/santicomp2/scenarios/6) - Actualizar la app 🔨
 
@@ -35,23 +35,24 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 
 
 # Objectivos del taller :dart:
-* [ ]  Mostrar conceptos basicos Kubernetes
-* [ ]  Divertirse en MTM
-* [ ]  Seguir modulos de ejemplo
+* [x]  Mostrar conceptos basicos Kubernetes
+* [x]  Divertirse en MTM
+* [x]  Seguir modulos de ejemplo
 
 
 
 # Cosas para investigar en casa 🔍
-* [ ]  Minikube local en docker
-* [ ]  Minikube en VM (VMWare)
-* [ ]  [Docker from Zero to Hero](https://es.slideshare.net/fazalraja/docker-from-zero-to-hero-81492331)
-* [ ]  [GCE Google Container Engine](https://cloud.google.com/kubernetes-engine/?hl=es)
-* [ ]  [AKS Amazon Managed Kubernetes](https://aws.amazon.com/es/eks/)
-* [ ]  [Istio](https://istio.io/)
-* [ ]  [Linkerd](https://linkerd.io/)
-* [ ]  [KNative](https://cloud.google.com/knative/)
-* [ ]  [Amazon EKS Workshopa](https://eksworkshop.com/)
-* [ ]  [Digital Ocean Kubernetes](https://www.digitalocean.com/resources/kubernetes/)
+* [x]  Minikube local en docker
+* [x]  Minikube en VM (VMWare)
+* [x]  [Docker from Zero to Hero](https://es.slideshare.net/fazalraja/docker-from-zero-to-hero-81492331)
+* [x]  [GCE Google Container Engine](https://cloud.google.com/kubernetes-engine/?hl=es)
+* [x]  [AKS Amazon Managed Kubernetes](https://aws.amazon.com/es/eks/)
+* [x]  [Istio](https://istio.io/)
+* [x]  [Linkerd](https://linkerd.io/)
+* [x]  [KNative](https://cloud.google.com/knative/)
+* [x]  [Amazon EKS Workshopa](https://eksworkshop.com/)
+* [x]  [Digital Ocean Kubernetes](https://www.digitalocean.com/resources/kubernetes/)
+* [x]  [OpenWhisk Serverless](https://openwhisk.apache.org/)
 
 
 # Docker Original :whale:
