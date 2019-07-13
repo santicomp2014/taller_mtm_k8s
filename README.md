@@ -52,8 +52,26 @@ Se estandarizo su uso en las companias para poder hacer arquitecturas de microse
 * [x]  [KNative](https://cloud.google.com/knative/)
 * [x]  [Amazon EKS Workshopa](https://eksworkshop.com/)
 * [x]  [Digital Ocean Kubernetes](https://www.digitalocean.com/resources/kubernetes/)
+* [x]  [Mesosphere K8S Engine](https://mesosphere.com/product/kubernetes-engine/)
 * [x]  [OpenWhisk Serverless](https://openwhisk.apache.org/)
+* [x]  [Crossplane K8S Extendido ⚗](https://crossplane.io/)
 
+
+
+# Kubernetes VS Serverless
+
+Kubernetes esta siendo operado por la **mayoria de los provedores cloud** y tambien puede ser instalado **on premise** manualmente, o con ayuda de alguna tecnologia ejemplo [Mesosphere](https://mesosphere.com/product/kubernetes-engine/).
+
++ Evita el vendor [lockin](https://techbeacon.com/enterprise-it/serverless-vendor-lock-should-you-be-worried) 🔑 en otras palabras estar atado a un provedor ejemplo AWS, si quiero cambiar porque subio el precio puedo iniciar mis pods en otro cluster y funciona igual.
+Igual esto no es un problema tan grave, porque siempre estamos atado por el stack/cloud etc no es tan facil migrar esto.
+
++ Evita los [cold starts](https://mikhail.io/serverless/coldstarts/aws/) ❄ esto pasa cuando ejemplo Aws Lambda un otro tiene que iniciar la funcion y aun no esta listo para ejecutar, dependiendo del tamaño y si este usa algun recurso de red puede demorar de unos milisegundos hasta varios segundos en el caso de VPC en Amazon. Esto sucede no solo al principio sino que cada x cantida de peticiones, hay maneras de reducir esto pero no es tan sencillo depende del cloud provider.
+
++ Kubernetes se utliza como un pilar para otras tecnologias ejemplo [OpenWhisk](https://openwhisk.apache.org/) el cual permite ejecutar funciones olvidadose de la infraestructura tal como Serverless de otros provedores.
+
++ Se puede usar tambien [KNative](https://cloud.google.com/knative/) que es una iniciativa parecida a la anterior, intenta reducir la complejidad de K8S y permite levantar aplicacion sin tener que saber tanto sobre Kubernetes, Se puede escalar la aplicacion con la cantidad de trafico ejemplo hay 10 user hay 2 pods, si sube la cantidad se inician solo los pods.
+
++ Se pueden utilizar arquitecturas Service Mesh ejemplo [Istio](https://istio.io/)/[Linkerd](https://linkerd.io/) esto sirve para usar cualquier tipo de app Java/C# etc con una manera estandar de monitorear controlar trafico etc.
 
 # Docker Original :whale:
 
