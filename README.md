@@ -19,7 +19,7 @@
 
 
 # ¿Para que sirve? :satisfied:
-[Kubernetes](https://kubernetes.io/es/) es un orchestador de contendores liberado por Google luego de su experiencia con un proyecto interno llamado Borg.
+[Kubernetes](https://kubernetes.io/es/) es un orquestador de contendores liberado por Google luego de su experiencia con un proyecto interno llamado Borg.
 Kubernetes se volvio masivamente popular versus sus competidores (Docker Swarm/Mesosphere etc).
 
 Se estandarizo su uso en las companias para poder hacer arquitecturas de microservicios y otras arquitecturas que antes eran prohibitivas por costo o complejidad de operacion.
