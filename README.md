@@ -83,3 +83,5 @@ Igual esto no es un problema tan grave, porque siempre estamos atado por el stac
 Katacoda original en ingles
 Upstream https://github.com/katacoda-scenarios/kubernetes-bootcamp-scenarios
 Modificado para caso de uso MTM en español :rocket:
+
+https://recharge.atlassian.net/browse/NM-200
